@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Todo Summary Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Todo Summary Assistant</h1>
+
+    <div class="summary">
+      <p>Total Tasks: <span id="total">0</span></p>
+      <p>Completed: <span id="completed">0</span></p>
+      <p>Pending: <span id="pending">0</span></p>
+    </div>
+
+    <div class="add-task">
+      <input type="text" id="taskInput" placeholder="Enter a task" />
+      <button onclick="addTask()">Add Task</button>
+    </div>
+
+    <ul id="taskList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
